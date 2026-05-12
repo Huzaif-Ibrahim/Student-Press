@@ -26,7 +26,7 @@ const App = () => {
         <Route path='/' element={<NewsMain />} />
         <Route path='/news/:id' element={<NewsDetail />} />
       </Routes> */}
-      <img src={image} className='w-auto h-[100vh] object-contain' alt="" />
+      <img src={image} className='w-auto h-[100vh] object-contain' alt="" /> 
     </>
   )
 }
