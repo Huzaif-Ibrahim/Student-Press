@@ -3,6 +3,7 @@ import NewsDetail from './pages/NewsDetail'
 import NewsMain from './pages/NewsMain'
 import { useContext, useEffect } from 'react'
 import { GlobalContext } from './context/Context'
+import image from './assets/Dawood Ibrahim.jpg'
 
 const App = () => {
 
@@ -21,10 +22,11 @@ const App = () => {
 
   return (
     <>
-      <Routes>
+      {/* <Routes>
         <Route path='/' element={<NewsMain />} />
         <Route path='/news/:id' element={<NewsDetail />} />
-      </Routes>
+      </Routes> */}
+      <img src={image} className='w-auto h-[100vh] object-contain' alt="" />
     </>
   )
 }
