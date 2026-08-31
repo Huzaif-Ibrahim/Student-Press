@@ -26,7 +26,10 @@ const App = () => {
         <Route path='/' element={<NewsMain />} />
         <Route path='/news/:id' element={<NewsDetail />} />
       </Routes> */}
-      <img src={image} className='w-auto h-[100vh] object-contain' alt="" /> 
+      {/*<img src={image} className='w-auto h-[100vh] object-contain' alt="" /> */}
+      <p className='w-full text-right px-4 mt-20'>خودی کو کر بلند اتنا کہ ہر تقدیر سے پہلے
+خدا بندے سے خود پوچھے بتا تیری رضا کیا ہے<br/>
+علامہ اقبال –</p>
     </>
   )
 }
